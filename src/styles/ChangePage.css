@@ -1,0 +1,63 @@
+.navBtn {
+  /* margin: 0 auto; */
+  color: #c9d1d9;
+  background-color: #296bb7;
+  border: 1px solid white;
+  border-radius: 10px;
+  width: 50px;
+  height: 50px;
+  font-size: 30px;
+}
+
+.btnBlock {
+  width: 76%;
+  /* width: 1200px; */
+  margin: 0 auto;
+  display: flex;
+  margin-top: 5%;
+  justify-content: space-evenly;
+  margin-bottom: 3%;
+}
+
+.navBtn:active {
+  transform: scale(0.9);
+}
+
+.navBtn:hover {
+  cursor: pointer;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .btnBlock {
+    width: 95%;
+    justify-content: space-evenly;
+  }
+}
+
+@media only screen and (min-device-width: 481px) and (max-device-width: 768px) {
+  .btnBlock {
+    width: 95%;
+    justify-content: space-evenly;
+  }
+}
+
+@media only screen and (min-device-width: 769px) and (max-device-width: 1024px) {
+  .btnBlock {
+    width: 95%;
+    justify-content: space-evenly;
+  }
+}
+
+@media only screen and (min-device-width: 1025px) and (max-device-width: 1200px) {
+  .btnBlock {
+    width: 95%;
+    justify-content: space-evenly;
+  }
+}
+
+@media only screen and (min-device-width: 1201px) {
+  .btnBlock {
+    width: 76%;
+    justify-content: space-evenly;
+  }
+}

@@ -1,0 +1,88 @@
+.locsBlock {
+  width: 1300px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin: 0 auto;
+  gap: 2rem;
+}
+
+.locs {
+  width: 300px;
+  height: 200px;
+  margin: 0 auto;
+  border: 1px solid #003b7f;
+  border-radius: 20px;
+  background-color: #296bb7;
+}
+
+.locsInfo p span {
+  font-size: 14px;
+  color: rgb(174, 174, 174);
+}
+
+.locs:hover {
+  transform: scale(1.1);
+  transition-duration: 0.5s;
+}
+
+.locsInfo {
+  width: 200px;
+  margin: 0 auto;
+  margin-top: 3rem;
+  color: #c9d1d9;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 16px;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .locsBlock {
+    width: 100%;
+    grid-template-columns: 1fr;
+  }
+}
+
+@media only screen and (min-device-width: 481px) and (max-device-width: 768px) {
+  .locsBlock {
+    width: 100%;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .locs {
+    width: 230px;
+  }
+  /* .locsInfo {
+    width: 200px;
+  } */
+}
+
+@media only screen and (min-device-width: 769px) and (max-device-width: 1024px) {
+  .locsBlock {
+    width: 100%;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .locs {
+    width: 240px;
+  }
+  /* .locsInfo {
+    width: 200px;
+  } */
+}
+
+@media only screen and (min-device-width: 1025px) and (max-device-width: 1200px) {
+  .locsBlock {
+    width: 100%;
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .locs {
+    width: 230px;
+  }
+  /* .locsInfo {
+    width: 200px;
+  } */
+}
+
+@media only screen and (min-device-width: 1201px) {
+  .locsBlock {
+    /* width: 79%; */
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
